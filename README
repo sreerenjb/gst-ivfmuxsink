@@ -1,0 +1,3 @@
+Stich the ivf header to each frame based on user provided fourcc.
+
+Eg: gst-launch-1.0 videotestsrc num-buffers=32 ! vaapivp9enc ! ivfmuxsink dump-location="sample_vp9.ivf" num-frames=32 fourcc="VP90"
